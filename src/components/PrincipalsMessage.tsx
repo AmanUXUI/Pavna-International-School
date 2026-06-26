@@ -67,11 +67,12 @@ const PrincipalsMessage: FC = () => {
             {/* Message Text Column */}
             <div className="lg:col-span-7 flex flex-col gap-8">
               
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-[2px] bg-brand-orange"></div>
-                <span className="text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
+              <div className="flex items-center gap-3 w-full max-w-sm">
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
+                <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   A NOTE FROM OUR PRINCIPAL
                 </span>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
 
               <h2 className="text-3xl sm:text-[42px] md:text-[42px] lg:text-[42px] font-serif font-bold text-brand-navy leading-tight md:leading-[50px] lg:leading-[50px] tracking-tight">

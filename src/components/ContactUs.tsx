@@ -235,10 +235,11 @@ export const ContactUs: FC = () => {
               {/* Header Title */}
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Get In Touch
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange w-12"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight">
                   Contact Us
@@ -330,10 +331,11 @@ export const ContactUs: FC = () => {
               {/* Form Title */}
               <div className="flex flex-col items-start w-fit max-w-full mb-8">
                 <div className="flex items-center gap-3 mb-6 w-full">
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Admission & General Enquiry
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange w-12"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight">
                   Send Us Your Thoughts

@@ -224,11 +224,11 @@ const EnquireNow: FC = () => {
             
             {/* Orange subtitle line matching Early Years Section */}
             <div className="flex items-center justify-center gap-3 mb-6 w-full max-w-md mx-auto">
-              <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                 Admissions & Fees
               </span>
-              <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-[42px] font-serif font-bold text-brand-navy mb-6 max-w-3xl leading-tight">

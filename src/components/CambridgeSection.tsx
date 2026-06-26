@@ -40,9 +40,9 @@ export default function CambridgeSection() {
           >
             <div className="flex flex-col items-start w-fit max-w-full">
               <div className="flex items-center gap-3 mb-3 md:mb-4 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange">GLOBAL STANDARD</span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[42px] leading-[34px] sm:leading-[44px] md:leading-[50px] tracking-[-1.2px] font-bold text-brand-navy font-serif text-left">

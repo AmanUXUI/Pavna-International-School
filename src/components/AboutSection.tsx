@@ -80,11 +80,6 @@ export default function AboutSection() {
       title: "Our Mission",
       description: "Our mission is to provide a nurturing and inspiring educational environment where every learner feels valued, respected, empowered to reach their full potential, and express themselves freely. We are committed to delivering holistic, experiential, inquiry-led and interdisciplinary learning that blends academic excellence with emotional, social, and ethical growth.\n\nThrough innovative teaching practices, dedicated faculty, and a unified curriculum, we aim to shape confident, compassionate, and curious learners who are prepared to thrive in a dynamic world.\n\nOur goal is to make quality education accessible and impactful creating institutions that are rooted in trust, inclusivity, and a deep sense of social responsibility",
       image: "https://i.postimg.cc/NjnTGwvg/DSC05789-JPG.jpg"
-    },
-    {
-      title: "Our Values",
-      description: "Resilience, Hustle, Compassion, Respect, Curiosity, Intellect, and Inclusivity are the seven timeless values that form the core of the Pavna ethos. We are dedicated to nurturing these values in every student, helping them build strong character, ethical leadership, and a deep-seated commitment to positive global impact and community service.",
-      image: "https://i.postimg.cc/cLzY1NGR/DSC05706-JPG.jpg"
     }
   ];
 
@@ -142,9 +137,9 @@ export default function AboutSection() {
           >
             <div className="flex flex-col items-start w-fit max-w-full">
               <div className="flex items-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange text-left">ABOUT PIS</span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[42px] leading-[34px] sm:leading-[44px] md:leading-[50px] tracking-[-1.2px] font-bold text-brand-navy mb-8 text-left">

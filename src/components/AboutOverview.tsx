@@ -143,11 +143,11 @@ export default function AboutOverview() {
               {/* Section Subhead Accent & Heading Wrapper */}
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-3 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange">
                     Our Philosophy
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
 
                 {/* Main Heading */}
@@ -260,12 +260,12 @@ export default function AboutOverview() {
         <div className="max-w-7xl mx-auto px-6">
           
           {/* Centered Header with decorative elements styling matching section 2 */}
-          <div className="flex items-center justify-center gap-3 mb-6 w-full">
-            <div className="w-12 h-[2px] bg-brand-orange"></div>
-            <span className="text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange text-center">
+          <div className="flex items-center justify-center gap-3 mb-6 w-full max-w-md mx-auto">
+            <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
+            <span className="shrink-0 text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange text-center font-sans">
               THE PAVNA ETHOS
             </span>
-            <div className="w-12 h-[2px] bg-brand-orange"></div>
+            <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
           </div>
 
           <div className="text-center mb-16 max-w-3xl mx-auto">

@@ -60,14 +60,14 @@ export default function FAQSection() {
         <div className="text-center mb-16" id="faq-header-wrapper">
           <div className="flex flex-col items-center w-fit max-w-full mx-auto">
             <div className="flex items-center justify-center gap-3 mb-4 w-full" id="faq-tagline-wrapper">
-              <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               <span 
                 className="shrink-0 text-brand-orange text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold"
                 id="faq-tagline"
               >
                 Got Questions?
               </span>
-              <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
             </div>
             <h2 
               className="text-3xl sm:text-4xl md:text-[42px] lg:text-[42px] md:leading-[50px] font-bold text-brand-navy tracking-tight"

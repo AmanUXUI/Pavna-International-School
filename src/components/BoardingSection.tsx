@@ -62,9 +62,9 @@ export default function BoardingSection() {
               className="flex flex-col items-center lg:items-start w-fit max-w-full"
             >
               <div className="flex items-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange">BOARDING LIFE</span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
 
               <h2 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[42px] leading-[34px] sm:leading-[44px] md:leading-[50px] font-bold text-brand-navy mb-8 md:mb-14 tracking-tight text-center lg:text-left">

@@ -124,11 +124,11 @@ const CampusLife: FC = () => {
             <div className="lg:col-span-6">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     A CAMPUS DESIGNED TO INSPIRE
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6">
@@ -220,11 +220,11 @@ const CampusLife: FC = () => {
               <div>
                 <div className="flex flex-col items-start w-fit max-w-full">
                   <div className="flex items-center gap-3 mb-6 w-full">
-                    <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                    <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                     <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                       EXPLORE OUR ACADEMIC INFRASTRUCTURE
                     </span>
-                    <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                    <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   </div>
                   
                   <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6">
@@ -275,11 +275,11 @@ const CampusLife: FC = () => {
               <div>
                 <div className="flex flex-col items-start w-fit max-w-full">
                   <div className="flex items-center gap-3 mb-6 w-full">
-                    <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                    <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                     <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                       THE HEART OF CAMPUS OPERATIONS
                     </span>
-                    <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                    <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   </div>
                   
                   <h3 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6">
@@ -359,11 +359,11 @@ const CampusLife: FC = () => {
           <div className="max-w-3xl mb-12">
             <div className="flex flex-col items-start w-fit max-w-full">
               <div className="flex items-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   OLYMPIC-STANDARD SPORTS
                 </span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">
@@ -414,11 +414,11 @@ const CampusLife: FC = () => {
           <div className="max-w-3xl mb-12">
             <div className="flex flex-col items-start w-fit max-w-full">
               <div className="flex items-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   LEARNING BEYOND THE CLASSROOM
                 </span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">

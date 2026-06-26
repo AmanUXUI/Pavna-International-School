@@ -107,11 +107,11 @@ const Admissions: FC = () => {
             <div className="lg:col-span-5">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Future-Ready Minds
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6">
                   Why Choose Pavna International School?
@@ -138,11 +138,11 @@ const Admissions: FC = () => {
           <div className="max-w-3xl mb-16">
             <div className="flex flex-col items-start w-fit max-w-full">
               <div className="flex items-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   Admission Process
                 </span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">
@@ -200,11 +200,11 @@ const Admissions: FC = () => {
             <div className="lg:col-span-12">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Admission Policies
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6 max-w-2xl">
                   Fair, Transparent & Student-Centric

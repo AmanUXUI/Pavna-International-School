@@ -89,12 +89,12 @@ export default function WhatSetsUsApart() {
         
         {/* Elegant Swiss Header Layout */}
         <div className="mb-10 md:mb-14 text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-[2px] bg-brand-orange"></div>
-            <span className="text-[11px] leading-tight tracking-[0.2em] uppercase font-bold text-brand-orange">
+          <div className="flex items-center justify-center gap-3 mb-4 w-full max-w-md mx-auto">
+            <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
+            <span className="shrink-0 text-[11px] leading-tight tracking-[0.2em] uppercase font-bold text-brand-orange">
               THE PAVNA ADVANTAGE
             </span>
-            <div className="w-12 h-[2px] bg-brand-orange"></div>
+            <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
           </div>
           <h2 className="text-2xl sm:text-4xl md:text-[42px] lg:text-[42px] md:leading-[50px] font-bold text-brand-navy tracking-tight max-w-4xl mx-auto">
             What Sets Pavna International Apart

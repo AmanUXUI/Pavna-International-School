@@ -40,13 +40,13 @@ export default function HeroSlider() {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
-                className="mb-4 flex items-center gap-3 justify-start"
+                className="mb-4 flex items-center gap-3 justify-start w-full max-w-[280px]"
               >
-                <div className="w-12 h-[2px] bg-brand-orange"></div>
-                <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.25em] font-bold text-brand-orange">
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
+                <span className="shrink-0 text-[10px] sm:text-[11px] uppercase tracking-[0.25em] font-bold text-brand-orange">
                   Established 2022
                 </span>
-                <div className="w-12 h-[2px] bg-brand-orange"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </motion.div>
 
               <motion.h1 

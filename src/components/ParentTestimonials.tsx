@@ -88,9 +88,9 @@ export default function ParentTestimonials() {
             className="flex flex-col items-center w-fit max-w-full mx-auto"
           >
             <div className="flex items-center justify-center gap-3 mb-5 w-full">
-              <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               <span className="shrink-0 text-brand-orange text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold">Community Voice</span>
-              <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
             </div>
 
             <h2 className="text-3xl md:text-[42px] lg:text-[42px] md:leading-[50px] lg:leading-[50px] font-bold font-gill text-brand-navy tracking-tight mb-5">

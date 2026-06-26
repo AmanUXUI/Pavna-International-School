@@ -200,11 +200,11 @@ const BoardingPage: FC = () => {
             <div className="lg:col-span-7 flex flex-col justify-center">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Setting The Record Straight
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-8">
                   The Truth About Boarding Schools Today
@@ -270,12 +270,12 @@ const BoardingPage: FC = () => {
           
           <div className="max-w-3xl mx-auto text-center mb-16">
             <div className="flex flex-col items-center mx-auto">
-              <div className="flex items-center justify-center gap-3 mb-6 w-full">
-                <div className="w-12 h-[2px] bg-brand-orange"></div>
+              <div className="flex items-center justify-center gap-3 mb-6 w-full max-w-md mx-auto">
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   Lasting Impact
                 </span>
-                <div className="w-12 h-[2px] bg-brand-orange"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">
@@ -354,12 +354,12 @@ const BoardingPage: FC = () => {
           
           {/* Header block on top */}
           <div className="max-w-2xl mb-10">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-[2px] bg-brand-orange"></div>
-              <span className="text-[11px] leading-tight tracking-[0.2em] uppercase font-bold text-brand-orange">
+            <div className="flex items-center gap-3 mb-4 w-full max-w-xs">
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
+              <span className="shrink-0 text-[11px] leading-tight tracking-[0.2em] uppercase font-bold text-brand-orange">
                 WHAT WE OFFER
               </span>
-              <div className="w-12 h-[2px] bg-brand-orange"></div>
+              <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-[42px] leading-[48px] font-bold text-brand-navy tracking-tight font-serif">
               World-Class Facilities, Rooted in Purpose
@@ -470,11 +470,11 @@ const BoardingPage: FC = () => {
             <div className="lg:col-span-6 flex flex-col justify-center">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-[28px] tracking-[1.65px] uppercase font-bold text-brand-orange">
                     BOARDING LIFE
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-8">

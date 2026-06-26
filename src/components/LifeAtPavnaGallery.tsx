@@ -56,12 +56,12 @@ export default function LifeAtPavnaGallery() {
       {styleBlock}
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 relative z-10 font-gill text-center mb-12">
-        <div className="flex items-center justify-center gap-3 mb-3">
-          <div className="w-12 h-[2px] bg-brand-orange"></div>
-          <span className="text-brand-orange text-xs font-black uppercase tracking-[0.25em] block">
+        <div className="flex items-center justify-center gap-3 mb-3 w-full max-w-md mx-auto">
+          <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
+          <span className="shrink-0 text-brand-orange text-[11px] leading-none tracking-[2px] uppercase font-bold">
             Life At Pavna
           </span>
-          <div className="w-12 h-[2px] bg-brand-orange"></div>
+          <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
         </div>
         <h2 className="text-2xl sm:text-4xl md:text-[42px] lg:text-[42px] font-bold text-brand-navy tracking-tight leading-tight md:leading-[50px] lg:leading-[50px] mb-4">
           Campus Gallery

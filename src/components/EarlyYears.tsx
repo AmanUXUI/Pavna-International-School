@@ -127,11 +127,11 @@ const EarlyYears: FC = () => {
             <div className="lg:col-span-5">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Globally Structured Education
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6">
                   Cambridge Early Years Curriculum
@@ -231,11 +231,11 @@ const EarlyYears: FC = () => {
           <div className="max-w-3xl mb-16">
             <div className="flex flex-col items-start w-fit max-w-full">
               <div className="flex items-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   Pavna International School
                 </span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">
@@ -325,11 +325,11 @@ const EarlyYears: FC = () => {
             <div className="lg:col-span-5">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     Quality & Accountability
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy leading-tight tracking-tight mb-6">
                   Measuring Progress
@@ -354,11 +354,11 @@ const EarlyYears: FC = () => {
             <div className="lg:col-span-7 bg-white p-8 md:p-10 rounded-3xl border border-neutral-200/60 shadow-md">
               <div className="flex flex-col items-start w-fit max-w-full">
                 <div className="flex items-center gap-3 mb-6 w-full">
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                   <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                     NEP Alignment
                   </span>
-                  <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                  <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 </div>
               </div>
               
@@ -385,11 +385,11 @@ const EarlyYears: FC = () => {
           <div className="max-w-3xl mb-16 mx-auto text-center flex flex-col items-center">
             <div className="flex flex-col items-center w-fit max-w-full mx-auto">
               <div className="flex items-center justify-center gap-3 mb-6 w-full">
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
                 <span className="shrink-0 text-[11px] leading-none tracking-[2px] uppercase font-bold text-brand-orange">
                   Lifelong Capabilities
                 </span>
-                <div className="flex-1 h-[2px] bg-brand-orange max-w-[48px]"></div>
+                <div className="w-12 h-[2px] bg-brand-orange shrink-0"></div>
               </div>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-navy mb-6">
                 How will my child benefit from the programme?
