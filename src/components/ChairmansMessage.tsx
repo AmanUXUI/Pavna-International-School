@@ -101,20 +101,12 @@ const ChairmansMessage: FC = () => {
               </div>
 
               {/* Signatures & Controls */}
-              <div className="pt-10 border-t border-neutral-100 flex flex-col sm:flex-row sm:items-center justify-between gap-8 mt-4">
+              <div className="pt-10 border-t border-neutral-100 mt-4">
                 <div>
                   <p className="text-xs text-neutral-400 uppercase tracking-widest font-semibold mb-2">Warmest Regards,</p>
                   <h4 className="font-serif text-2xl font-bold text-brand-navy mb-1">Mr. Swapnil Jain</h4>
                   <p className="text-[12px] text-brand-orange uppercase font-bold tracking-wider">Chairman, Pavna Group</p>
                 </div>
-
-                <button 
-                  onClick={() => window.location.hash = ''} 
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-brand-orange hover:bg-brand-dark-orange text-white text-[13px] font-bold tracking-wider transition-all shadow-md active:scale-95 self-start sm:self-center cursor-pointer"
-                >
-                  Return to Homepage
-                  <ArrowRight size={15} />
-                </button>
               </div>
 
             </div>

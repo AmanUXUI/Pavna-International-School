@@ -17,8 +17,35 @@ import {
   Lightbulb, 
   Smile, 
   HelpCircle,
-  ArrowRight
+  ArrowRight,
+  MessagesSquare,
+  Paintbrush,
+  Music,
+  UsersRound,
+  Triangle,
+  Circle,
+  Volleyball
 } from 'lucide-react';
+
+const CreativeExpressionIcon = ({ size = 18, className, ...props }: any) => {
+  const finalSize = typeof size === 'number' ? size : 18;
+  return (
+    <div className="relative" style={{ width: finalSize, height: finalSize }} {...props}>
+      <Paintbrush size={Math.round(finalSize * 0.85)} className={`absolute -top-0.5 -left-0.5 ${className || ''}`} />
+      <Music size={Math.round(finalSize * 0.85)} className={`absolute -bottom-0.5 -right-0.5 ${className || ''}`} />
+    </div>
+  );
+};
+
+const MathematicsIcon = ({ size = 18, className, ...props }: any) => {
+  const finalSize = typeof size === 'number' ? size : 18;
+  return (
+    <div className="relative" style={{ width: finalSize, height: finalSize }} {...props}>
+      <Triangle size={Math.round(finalSize * 0.85)} className={`absolute -top-0.5 -left-0.5 ${className || ''}`} />
+      <Circle size={Math.round(finalSize * 0.85)} className={`absolute -bottom-0.5 -right-0.5 ${className || ''}`} />
+    </div>
+  );
+};
 
 const EarlyYears: FC = () => {
   return (
@@ -254,27 +281,27 @@ const EarlyYears: FC = () => {
               {
                 title: "Communication, Language & Literacy",
                 text: "Your child will be encouraged to develop their speaking, listening, reading and writing skills.",
-                icon: BookOpen
+                icon: MessagesSquare
               },
               {
                 title: "Creative Expression",
                 text: "Your child will have the chance to express their ideas in a creative way.",
-                icon: PenTool
+                icon: CreativeExpressionIcon
               },
               {
                 title: "Personal, Social & Emotional Development",
                 text: "Your child will develop social skills, and build self-esteem and confidence.",
-                icon: Heart
+                icon: UsersRound
               },
               {
                 title: "Mathematics",
                 text: "Your child will begin to develop mathematical thinking and language.",
-                icon: Calculator
+                icon: MathematicsIcon
               },
               {
                 title: "Physical Development",
                 text: "Your child will develop different types of movement skills and build the foundations for a healthy lifestyle, supporting strong physical Development For Children from an early age.",
-                icon: Activity
+                icon: Volleyball
               },
               {
                 title: "Understanding the World",
